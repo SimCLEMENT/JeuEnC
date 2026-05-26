@@ -1,0 +1,7 @@
+Ce deuxième sprint comporte l'implémentation du board.c en remplacement du board.o fourni au cours du sprint précédent. Le board.c devra respecter scrupuleusement les indications de la documentation fournie dans le board.h, et sera testé par des tests automatiques. Attention, aucune addition que vous feriez au board.h ne doit être nécessaire à la compilation (en particulier, même si c'est une pratique courante, n'ajoutez pas au board.h la définition de la structure que vous manipulez). La compilation devra être possible avec le board.h initial (tel que téléchargé au départ). Assurez vous d'implémenter toutes les fonctions (au moins dans une coquille vide qui ne fait rien) pour que les tests compilent.
+
+Deux notes seront attribuées pour votre board.c. Une pour un rendu que vous effectuerez à la fin du sprint, où vous aurez à vérifier que votre programme est complet de façon autonome. Une seconde sera attribuée à l'issue d'un travail en temps libre en janvier, durant lesquels vous aurez la possibilité de remettre et d'évaluer votre code autant de fois que vous le souhaitez.
+
+Chaque étudiant doit faire un rendu individuel, des ressemblances fortes ne pourront exister qu'entre deux étudiants du même groupe sous peine d'être pénalisé pour plagiat.
+
+Bon sprint.

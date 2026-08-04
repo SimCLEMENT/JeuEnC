@@ -1,4 +1,0 @@
-Voici la commande ppour pouvoir éxécuter le code :
-gcc -Wall SAE.c board.o
-puis 
-./a.out

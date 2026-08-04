@@ -13,7 +13,7 @@ Deux joueurs (**Nord** et **Sud**) s'affrontent sur un plateau de 6x6 cases, ave
 - Si une pièce en rencontre une autre en fin de déplacement, elle **rebondit** et poursuit son mouvement avec le nombre de pas correspondant à la taille de la pièce rencontrée (ou peut **échanger** sa place avec elle)
 - Le premier joueur à placer une pièce dans l'en-but adverse gagne
 
-Le règlement détaillé est disponible dans [`sujet.pdf`](./sujet.pdf).
+Le règlement détaillé est disponible dans [`sujet.pdf`](./pdf/sujet.pdf).
 
 ## 🧩 Structure du projet
 

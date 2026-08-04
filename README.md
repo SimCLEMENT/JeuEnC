@@ -23,17 +23,14 @@ Le projet est divisé en deux sprints indépendants, correspondant à deux objec
 
 Objectif : développer une interface console permettant de jouer une partie complète, **en utilisant un moteur de jeu déjà fourni** (`board.o` précompilé, avec son en-tête `board.h`).
 
-- [`SAE.c`](./SAE.c) : interface de jeu en console (affichage du plateau, gestion des tours, saisie des déplacements, échanges, annulations, détection de victoire)
-- [`board.h`](./board.h) : en-tête fourni décrivant l'API du moteur de jeu (non modifiable)
-- [`main_example.c`](./main_example.c) : exemple minimal fourni par l'enseignant illustrant l'usage de `board.h`
-
-> Le fichier `board.o` fourni pour ce sprint n'est pas inclus dans ce dépôt (fichier précompilé propre à l'environnement de rendu).
+- [`SAE.c`] : interface de jeu en console (affichage du plateau, gestion des tours, saisie des déplacements, échanges, annulations, détection de victoire)
+- [`board.h`] : en-tête fourni décrivant l'API du moteur de jeu (non modifiable)
 
 ### Sprint 2 — Moteur de jeu (`board.c`)
 
 Objectif : implémenter soi-même le moteur du jeu, **en remplacement du `board.o` fourni**, en respectant scrupuleusement les spécifications du `board.h` fourni (sans le modifier). Le code est ensuite validé par une suite de tests automatiques.
 
-- [`board.c`](./board.c) : implémentation complète du moteur de jeu (structure du plateau, placement, déplacement, rebonds, échanges, annulation, détection de victoire...)
+- [`board.c`] : implémentation complète du moteur de jeu (structure du plateau, placement, déplacement, rebonds, échanges, annulation, détection de victoire...)
 
 Contrainte importante du sujet : aucune modification du `board.h` original n'est autorisée, y compris l'ajout usuel de la définition de la structure `board_s` dans l'en-tête — celle-ci reste entièrement interne à `board.c`.
 

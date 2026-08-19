@@ -571,3 +571,8 @@ player next_player(player p) {
     }
     return NO_PLAYER;
 }
+
+player get_piece_owner(board g, int line, int col) {
+    if (!g || !inside(line, col)) return NO_PLAYER;
+    return g->grid[line][col].owner;
+}

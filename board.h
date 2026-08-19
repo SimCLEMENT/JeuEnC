@@ -469,6 +469,8 @@ return_code cancel_movement(board game);
 return_code cancel_step(board game);
 
 
+player get_piece_owner(board game, int line, int column);
+
 /**@}*/
 
 #endif /*_BOARD_H_*/

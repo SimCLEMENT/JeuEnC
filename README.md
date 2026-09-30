@@ -64,6 +64,6 @@ gcc -Wall SAE.c board.c -o jeu.exe
 
 La documentation complète des fonctions du moteur de jeu (générée à partir de `board.h`) est disponible en ligne : https://dorbec.users.greyc.fr/SAE
 
-## ✍️ Auteur(s)
+## ✍️ Auteur
 
 - Simon CLEMENT

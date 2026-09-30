@@ -1,5 +1,11 @@
 # SAÉ 1.1 / 1.2 — Jeu de stratégie à deux joueurs
 
+Implémentation en C d'un jeu de stratégie à deux joueurs, développée en deux sprints successifs.
+
+🎥 **Démo vidéo :** [lien YouTube non répertorié]
+
+## 📖 Contexte
+
 Projet réalisé dans le cadre du BUT Informatique, IUT Grand Ouest Normandie (campus d'Ifs), en première année.
 
 Ce dépôt contient l'implémentation d'un jeu de stratégie à deux joueurs, développée en deux sprints successifs.
@@ -15,7 +21,13 @@ Deux joueurs (**Nord** et **Sud**) s'affrontent sur un plateau de 6x6 cases, ave
 
 Le règlement détaillé est disponible dans [`sujet.pdf`](./pdf/sujet.pdf).
 
-## 🧩 Structure du projet
+## ✨ Fonctionnalités
+
+- Interface de jeu en console : affichage du plateau, gestion des tours, saisie des déplacements, échanges, annulations.
+- Détection automatique de la victoire.
+- Moteur de jeu implémenté de A à Z (Sprint 2), validé par une suite de tests automatiques.
+
+## 🏗️ Architecture
 
 Le projet est divisé en deux sprints indépendants, correspondant à deux objectifs pédagogiques distincts.
 
@@ -34,7 +46,12 @@ Objectif : implémenter soi-même le moteur du jeu, **en remplacement du `board.
 
 Contrainte importante du sujet : aucune modification du `board.h` original n'est autorisée, y compris l'ajout usuel de la définition de la structure `board_s` dans l'en-tête — celle-ci reste entièrement interne à `board.c`.
 
-## ⚙️ Compilation
+## 🛠️ Langages et technologies utilisés
+
+- C
+- gcc
+
+## 🚀 Lancement du projet
 
 Le projet se compile avec `gcc` :
 
@@ -43,10 +60,10 @@ gcc -Wall SAE.c board.c -o jeu.exe
 ./jeu.exe
 ```
 
-## 📖 Documentation
+## 📚 Documentation
 
 La documentation complète des fonctions du moteur de jeu (générée à partir de `board.h`) est disponible en ligne : https://dorbec.users.greyc.fr/SAE
 
-## ✍️ Auteur
+## ✍️ Auteur(s)
 
-Simon CLEMENT — BUT Informatique, IUT Grand Ouest Normandie
+- Simon CLEMENT

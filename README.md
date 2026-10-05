@@ -2,7 +2,7 @@
 
 Implémentation en C d'un jeu de stratégie à deux joueurs, développée en deux sprints successifs.
 
-🎥 **Démo vidéo :** [lien YouTube non répertorié]
+🎥 **Démo vidéo :** https://youtu.be/ZP_onvGBc-g?si=RVhATPYK7p9UORaK
 
 ## 📖 Contexte
 
